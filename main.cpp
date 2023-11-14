@@ -22,6 +22,6 @@ int main() {
 
     cout << num1 << " is " << (IS_EVEN(num1) ? "even" : "odd") << endl;
     cout << num2 << " is " << (IS_ODD(num2) ? "odd" : "even") << endl;
-
+   
     return 0;
 }
