@@ -7,15 +7,30 @@
     <Filter Include="lib">
       <UniqueIdentifier>{d9776fb3-63a2-4575-b8b8-a47b7c27aa57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{b530d239-8a0d-48b7-a587-3352495af0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prog">
+      <UniqueIdentifier>{d2e5d2dd-2414-410f-930d-17b3f2a2dcc5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>function</Filter>
+    </ClCompile>
+    <ClCompile Include="prog.cpp">
+      <Filter>prog</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h">
       <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>function</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
